@@ -5,7 +5,7 @@ fetch('https://raw.githubusercontent.com/devchallenges-io/web-project-ideas/main
         let tarjetasCafes = '';
         data.forEach(item => {
             tarjetasCafes += `
-                <div class="tarjeta col-md-6 col-lg-4 post">
+                <div class="tarjeta col-md-6 col-lg-4 mb-3">
                     <img class="img-tarjeta" src="${item.image}" alt="${item.name}">
                     <div class='d-flex justify-content-between mt-2'>
                         <span class='titular-tarjeta'>${item.name}</span>
