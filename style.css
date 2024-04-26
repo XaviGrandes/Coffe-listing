@@ -4,6 +4,9 @@ html{
     box-sizing: border-box;
     height: 100%;
 }
+body{
+    background-color: #111315;
+}
 .bg-image-container{
     background-image: url(./assets/bg-cafe.jpg);
     background-size: cover;
@@ -11,7 +14,6 @@ html{
 }
 .bg-dark{
     background-color: #111315;
-    height: 120%;
 }
 .bg-image{
     background-image: url(./assets/vector.svg);
@@ -30,16 +32,6 @@ html{
     padding: 4rem;
     position: absolute;
     margin-top: -130px;
-    right: 10%;
-    left: 10%;
-}
-.text{
-    padding: 0px 30%;
-}
-#tarjetas-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap:2rem;
 }
 h1{
     color: #FEF7EE;
@@ -62,9 +54,6 @@ button:hover{
     border-radius: 0.5rem;
 }
 
-.tarjeta{
-    width: 325px;
-}
 .img-tarjeta{
     border-radius: 1rem;
     width: 100%;
@@ -89,4 +78,11 @@ button:hover{
 }
 .sold-out{
     color: #ED735D;
+}
+
+/* MOBILE */
+@media (min-width: 900px) {
+    .text{
+        padding: 0px 30%;
+    }
 }
